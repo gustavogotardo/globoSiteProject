@@ -8,12 +8,59 @@ body {
   width: 1250px;
   font-family: "Encode Sans";
   align-self: center;
+  margin: 30px 100px 30px 100px;
 }
 
-.menu {
+.header {
   height: 80px;
-  align-items: center;
-  justify-self: center;
+  margin: auto;
+  width: 50%;
+}
+
+.menu p {
+  width: 10%;
+  float: left;
+  font-weight: bolder;
+}
+
+.g1 {
+  color: #c4170c;
+}
+
+.oglobo {
+  color: #1e4c9a;
+}
+
+.valor {
+  color: #006767;
+}
+
+.ge {
+  color: #06aa48;
+}
+
+.cartola {
+  color: #ff7400;
+}
+
+.globoplay {
+  color: #fb0234;
+}
+
+.dropz {
+  color: rgb(255, 124, 168);
+}
+
+.gshow {
+  color: #ff6700;
+}
+
+.quem {
+  color: #333;
+}
+
+.receitas {
+  color: #a5147d;
 }
 
 .imgBig {
@@ -39,7 +86,24 @@ body {
   font-size: 18px;
 }
 
-.inbetweenBorder {
-  width: 1px;
-  color: #ebedef;
+.horizontalBorder {
+  height: 1px;
+  width: 100%;
+  background-color: #f5f6f7;
+}
+
+.verticalBorder {
+  width: 10px;
+  background-color: #2778c9;
+  height: 100%;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.division {
+  width: 10%;
+  float: left;
 }
