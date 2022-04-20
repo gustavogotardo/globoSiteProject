@@ -18,11 +18,12 @@ a {
 
 .pageContent {
   width: 1250px;
-
+  height: 1600px;
   font-family: "Encode Sans";
   align-self: center;
   margin: 0px 100px 30px 100px;
   flex-direction: column;
+  flex: none;
 }
 
 .header {
@@ -80,7 +81,28 @@ a {
   color: #a5147d;
 }
 
+.news {
+  justify-content: space-around;
+}
+
 .g1news {
+  flex-direction: column;
+}
+
+.imgnews {
+  flex-direction: column;
+}
+
+.g1secnews {
+  justify-content: space-between;
+}
+
+.genews {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.gshownews {
   flex-direction: column;
 }
 
@@ -98,8 +120,9 @@ a {
 
 .heroHeadline {
   font-size: 52px;
-  font-weight: bold;
+  font-weight: 700;
   color: #c4160c;
+  width: 624px;
 }
 
 .heroSecondary {
@@ -110,31 +133,46 @@ a {
 .horizontalBorder {
   height: 1px;
   width: 100%;
+  margin: 10px 0px;
   background-color: #f5f6f7;
+  flex: none;
 }
 
 .verticalBorder {
   width: 1px;
+  margin: 0px 36px;
   background-color: #EBEDEF;
   height: 100%;
+  flex: none;
+}
+
+.g1mainnews {
+  flex-direction: column;
+  margin: 10px 0px;
+  justify-content: space-between;
 }
 
 .g1title {
-
+  color: #c4170c;
+  font-weight: 500;
 }
 
 .getitle {
-
+  color: #06aa48;
+  font-weight: 500;
 }
 
 .gshowtitle {
-
+  color: #ff6700;
+  font-weight: 500;
 }
 
 .submain {
-
+  color: #2F3134;
+  font-weight: 700;
 }
 
 .subsecondary {
-
+  color: #2F3134;
+  font-weight: 400;
 }
