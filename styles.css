@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  filter: brightness(1.75);
+}
+
 .pageContent {
   width: 1250px;
   height: 1100px;
